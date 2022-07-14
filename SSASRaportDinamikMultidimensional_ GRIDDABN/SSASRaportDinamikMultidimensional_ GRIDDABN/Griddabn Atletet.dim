@@ -1,0 +1,222 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5748356e-4f06-4c07-801d-e12d41632a71" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Griddabn Atletet</ID>
+  <Name>Griddabn Atletet</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a516894a-2144-42d4-8e08-7b4458d50a7f">
+    <DataSourceViewID>GRIDDABN</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="56feb1c8-eb2e-4ea6-81d8-0d15731af634">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6fa4138c-1458-4f67-8df5-b57416656f30">
+      <ID>ID Atlete</ID>
+      <Name>ID Atlete</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ba2da8a-f9f3-43b2-ae05-be8695acef2b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ceb392b-101b-4892-af08-c4fcc50e8206">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>ID_Atlete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1f84e8ad-d805-4f90-8aa4-55be27b351ba">
+          <AttributeID>Modeli</AttributeID>
+          <Name>Modeli</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9dbd5793-f7ec-4858-9147-db0e9506ba72">
+          <AttributeID>Sezona</AttributeID>
+          <Name>Sezona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8228119e-f180-4219-9538-9c78e70b305c">
+          <AttributeID>Cmimi</AttributeID>
+          <Name>Cmimi</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="205803b0-918c-40f4-9087-2768258844f5">
+          <AttributeID>Madhesia</AttributeID>
+          <Name>Madhesia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b48638bf-fcc7-4287-8abf-cb542f9789ef">
+          <AttributeID>Ngjyra</AttributeID>
+          <Name>Ngjyra</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c1fb7617-abf5-4795-b72f-c4fc060ee141">
+          <AttributeID>ID Brendi</AttributeID>
+          <Name>ID Brendi</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f35bf55-8e7b-4675-867f-5d3f3cf21c39">
+      <ID>Modeli</ID>
+      <Name>Modeli</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4a161364-b8ef-43c1-9587-aacff5eefad9">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="55161bf4-9668-4ba3-bab1-0cae0d3a56c2">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>Modeli</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8a4dcc4-05a5-485b-ba8d-2f5d19a0037c">
+      <ID>Sezona</ID>
+      <Name>Sezona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cbfb467b-7632-48d2-8c2a-4699d0c3ef46">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9aecc1f-e687-4382-9d25-15c8d1e0e4ba">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>Sezona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="120ded54-5156-4c97-996f-4fa04ecb322b">
+      <ID>Cmimi</ID>
+      <Name>Cmimi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6b9c47dd-52dc-4797-934a-212df8ec7103">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73c0a0be-f97a-4f2a-b379-11a7db50a942">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>Cmimi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9724bf51-a01a-46b8-bb9e-7bd184d8658d">
+      <ID>Madhesia</ID>
+      <Name>Madhesia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82fbcab4-5dec-4496-b6c2-562fef181074">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d925100d-5231-44ce-a533-e894a473294e">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>Madhesia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0eaf4cb5-a988-49e8-9260-ccf1b7a78578">
+      <ID>Ngjyra</ID>
+      <Name>Ngjyra</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68e18763-684f-45f7-ae60-c6afb4c9280c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9eca1e1-eb41-4f78-9f5a-72befcff3bb9">
+            <TableID>dbo_griddabn_atletet</TableID>
+            <ColumnID>Ngjyra</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df458592-0a47-4286-9d4c-d64af79cde1c">
+      <ID>ID Brendi</ID>
+      <Name>ID Brendi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be773989-0ee7-4206-9fe3-7a82ef26a123">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5aee3b72-9e57-46d8-b0bf-cb8fe93f2639">
+            <TableID>dbo_griddabn_brendet</TableID>
+            <ColumnID>ID_Brendi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e0045fa7-864b-4bcf-9915-141e8aafb703">
+          <AttributeID>Emri Brendit</AttributeID>
+          <Name>Emri Brendit</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99839f5f-6c96-4c1a-ae26-f4279bd48016">
+      <ID>Emri Brendit</ID>
+      <Name>Emri Brendit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c23f49b5-d493-4951-b6b3-d6f0a120bd17">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d038a2bd-d68a-484c-8399-560908c46cd0">
+            <TableID>dbo_griddabn_brendet</TableID>
+            <ColumnID>Emri_brendit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

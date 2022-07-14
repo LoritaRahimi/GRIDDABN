@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRSRaportStatik_GRIDDABN", "SSRSRaportStatik_GRIDDABN\SSRSRaportStatik_GRIDDABN.rptproj", "{8191F32D-4B17-4750-B872-12D6F8D7B846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Debug|Default.ActiveCfg = Debug
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Debug|Default.Build.0 = Debug
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Debug|Default.Deploy.0 = Debug
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.DebugLocal|Default.Build.0 = DebugLocal
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Release|Default.ActiveCfg = Release
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Release|Default.Build.0 = Release
+		{8191F32D-4B17-4750-B872-12D6F8D7B846}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EBB5052-7E29-4248-83D1-2B6225465963}
+	EndGlobalSection
+EndGlobal

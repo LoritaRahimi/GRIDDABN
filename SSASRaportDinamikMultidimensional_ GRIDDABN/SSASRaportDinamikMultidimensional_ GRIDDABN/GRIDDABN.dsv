@@ -1,0 +1,111 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fbe10f06-4535-426b-ac45-fafadecce85e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDABN</ID>
+  <Name>GRIDDABN</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>GRIDDABN</DataSourceID>
+  <Schema>
+    <xs:schema id="GRIDDABN" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="GRIDDABN" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="167c6d07-6633-421f-8b09-34773848ffdc">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_griddabn_atletet" msprop:design-time-name="11383548-8482-4527-b906-75699d4c6d46" msprop:DbTableName="griddabn_atletet" msprop:FriendlyName="griddabn_atletet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Atlete" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="9e977860-e64f-48b9-b2d6-7b302367b2d3" msprop:DbColumnName="ID_Atlete" msprop:FriendlyName="ID_Atlete" type="xs:int" />
+                  <xs:element name="Modeli" msprop:design-time-name="f2b45d77-0cda-49ad-9033-55c11d027441" msprop:DbColumnName="Modeli" msprop:FriendlyName="Modeli">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Sezona" msprop:design-time-name="a673b8e5-618f-4bc0-8d7e-74889379ae91" msprop:DbColumnName="Sezona" msprop:FriendlyName="Sezona">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cmimi" msprop:design-time-name="0ea31667-b69a-4639-b845-dbf4230cf48c" msprop:DbColumnName="Cmimi" msprop:FriendlyName="Cmimi" type="xs:decimal" />
+                  <xs:element name="Madhesia" msprop:design-time-name="cf1af879-318c-43d0-9411-c3b70f17e5d7" msprop:DbColumnName="Madhesia" msprop:FriendlyName="Madhesia" type="xs:decimal" />
+                  <xs:element name="Ngjyra" msprop:design-time-name="4b18ec6d-3c9d-489a-8918-32e35b49269f" msprop:DbColumnName="Ngjyra" msprop:FriendlyName="Ngjyra">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ID_Brendi" msprop:design-time-name="900e7619-f3ea-45b9-93c3-7d204cab4f63" msprop:DbColumnName="ID_Brendi" msprop:FriendlyName="ID_Brendi" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_griddabn_brendet" msprop:design-time-name="4b70cf38-aeba-4643-b8e1-7c8509672353" msprop:DbTableName="griddabn_brendet" msprop:FriendlyName="griddabn_brendet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Brendi" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="963b1eba-b6a2-4db7-8cf0-341ab5383842" msprop:DbColumnName="ID_Brendi" msprop:FriendlyName="ID_Brendi" type="xs:int" />
+                  <xs:element name="Emri_brendit" msprop:design-time-name="48fae193-19be-467e-8b22-38653da3bfd3" msprop:DbColumnName="Emri_brendit" msprop:FriendlyName="Emri_brendit">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddabn_atletet" />
+          <xs:field xpath="ID_Atlete" />
+        </xs:unique>
+        <xs:unique name="dbo_griddabn_brendet_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddabn_brendet" />
+          <xs:field xpath="ID_Brendi" />
+        </xs:unique>
+        <xs:keyref name="FK_griddabn_atletet_griddabn_brendet" refer="dbo_griddabn_brendet_Constraint1">
+          <xs:selector xpath=".//dbo_griddabn_atletet" />
+          <xs:field xpath="ID_Brendi" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <GRIDDABN xmlns="" />
+  </Schema>
+</DataSourceView>
